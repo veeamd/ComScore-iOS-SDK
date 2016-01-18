@@ -1,0 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'HelloWorld', :exclusive => true do
+  pod "ComScore-iOS-SDK", :path => "../../"
+end
