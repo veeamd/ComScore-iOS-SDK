@@ -1,11 +1,3 @@
-#
-# Be sure to run `pod lib lint ComScore-iOS-SDK.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'ComScore-iOS-SDK'
   s.version          = '3.1510.23'
@@ -18,8 +10,10 @@ Pod::Spec.new do |s|
   s.author           = { "comScore" => "www.comscore.com" }
   s.source           = { :git => "https://github.com/comscore/ComScore-iOS-SDK.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/comScore'
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios
+  s.ios.deployment_target = '6.0'
   s.public_header_files = 'comScore/**/*.h'
+  s.preserve_paths = 'comScore/**/*.h'
   s.vendored_libraries = 'comScore/libcomScore.a'
   s.frameworks = 'SystemConfiguration', 'Security'
 end
