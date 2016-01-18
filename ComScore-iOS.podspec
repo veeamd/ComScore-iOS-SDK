@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore-iOS'
   s.version          = '3.1510.23'
-  s.summary          = 'Application and Streaming Tag library for iOS'
+  s.summary          = 'Official Application and Streaming Tag library for iOS from comScore'
   s.description      = <<-DESC
   This library is used to collect application and streaming tagging data from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
                        DESC
