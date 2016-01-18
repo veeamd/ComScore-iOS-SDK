@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   This library is used to collect application and streaming tagging data from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
                        DESC
   s.homepage         = 'https://github.com/comscore/ComScore-iOS-SDK'
-  s.license          = 'MIT'
+  s.license          = 'Custom'
   s.author           = { "comScore" => "www.comscore.com" }
   s.source           = { :git => "https://github.com/comscore/ComScore-iOS-SDK.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/comScore'
