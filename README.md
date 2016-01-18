@@ -22,7 +22,7 @@ ComScore iOS SDK is also available through [CocoaPods](http://cocoapods.org). Th
 To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ComScore-iOS-SDK"
+pod "ComScore-iOS"
 ```
 
 Manual

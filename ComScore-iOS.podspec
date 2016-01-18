@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ComScore-iOS-SDK'
+  s.name             = 'ComScore-iOS'
   s.version          = '3.1510.23'
   s.summary          = 'Application and Streaming Tag library for iOS'
   s.description      = <<-DESC

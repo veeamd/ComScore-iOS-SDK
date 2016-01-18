@@ -1,14 +1,14 @@
 PODS:
-  - ComScore-iOS-SDK (3.1510.23)
+  - ComScore-iOS (3.1510.23)
 
 DEPENDENCIES:
-  - ComScore-iOS-SDK (from `../../`)
+  - ComScore-iOS (from `../../`)
 
 EXTERNAL SOURCES:
-  ComScore-iOS-SDK:
+  ComScore-iOS:
     :path: ../../
 
 SPEC CHECKSUMS:
-  ComScore-iOS-SDK: 2d76699023ed634097e1fe18d6f740ee301b5683
+  ComScore-iOS: 9b182fcc36cb53342415da52ffb58854fa0b565f
 
 COCOAPODS: 0.38.2
