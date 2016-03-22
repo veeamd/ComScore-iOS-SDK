@@ -1,0 +1,11 @@
+module ComScore {
+    header "CSComScore.h"
+    header "CSStreamSense.h"
+    link framework "UIKit"
+    link framework "Security"
+    link framework "CFNetwork"
+    link framework "CoreFoundation"
+    link framework "SystemConfiguration"
+    link "comScore"
+    export *
+}
