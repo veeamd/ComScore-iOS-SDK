@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'comScore/**/*.h'
   s.vendored_libraries = 'comScore/libcomScore.a'
   s.frameworks = 'SystemConfiguration', 'Security'
-  s.module_map = 'comScore/module.map'
+  s.module_map = 'comScore/ComScore.modulemap'
   s.module_name = 'ComScore'
 
 end
