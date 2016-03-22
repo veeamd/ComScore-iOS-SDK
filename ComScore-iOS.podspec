@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'SystemConfiguration', 'Security'
   s.module_map = 'comScore/ComScore.modulemap'
   s.module_name = 'ComScore'
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
 end
