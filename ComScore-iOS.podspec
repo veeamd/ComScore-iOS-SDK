@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.public_header_files = 'comScore/**/*.h'
-  s.source_files = 'comScore/**/*.h', '*.m'
+  s.source_files = 'comScore/**/*.h', 'comScore/*.m'
   s.preserve_paths = 'comScore/**/*.h'
   s.vendored_libraries = 'comScore/libcomScore.a'
   s.frameworks = 'SystemConfiguration', 'Security'
