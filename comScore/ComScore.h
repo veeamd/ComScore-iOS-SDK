@@ -8,12 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for ComScore-tvOS.
-FOUNDATION_EXPORT double ComScore_tvOSVersionNumber;
-
-//! Project version string for ComScore-tvOS.
-FOUNDATION_EXPORT const unsigned char ComScore_tvOSVersionString[];
-
 #import "CSComScore.h"
 #import "CSStreamSense.h"
 #import "CSStreamSenseClip.h"
@@ -25,3 +19,15 @@ FOUNDATION_EXPORT const unsigned char ComScore_tvOSVersionString[];
 #import "CSStreamSenseState.h"
 #import "CSSessionState.h"
 #import "CSTransmissionMode.h"
+#import "CSApplicationState.h"
+#import "CSCacheFlusher.h"
+#import "CSCensus.h"
+#import "CSCore.h"
+#import "CSEventType.h"
+#import "CSKeepAlive.h"
+#import "CSMeasurementDispatcher.h"
+#import "CSNotificationsObserver.h"
+#import "CSOfflineCache.h"
+#import "CSStorage.h"
+#import "CSStreamingTag.h"
+#import "CSTaskExecutor.h"
