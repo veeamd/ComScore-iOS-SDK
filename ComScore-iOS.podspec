@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/comscore/ComScore-iOS-SDK'
   s.license          = 'Custom'
   s.author           = { "comScore" => "www.comscore.com" }
-  s.source           = { :git => "https://github.com/raspu/ComScore-iOS-SDK.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/comScore/ComScore-iOS-SDK.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/comScore'
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
