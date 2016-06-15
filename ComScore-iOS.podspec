@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries = 'comScore/libcomScore.a'
   s.frameworks = 'SystemConfiguration', 'Security'
   s.module_map = 'comScore/ComScore.modulemap'
+  s.header_dir = 'ComScore'
   s.module_name = 'ComScore'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 end
