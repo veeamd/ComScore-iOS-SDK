@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'HelloWorld', :exclusive => true do
+target 'HelloWorld' do
   pod "ComScore-iOS", :path => "../../"
 end
