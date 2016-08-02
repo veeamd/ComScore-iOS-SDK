@@ -8,7 +8,7 @@
 #import "HelloWorldAppDelegate.h"
 
 #import "HelloWorldViewController.h"
-#import "CSComScore.h"
+#import <ComScore/CSComScore.h>
 
 @implementation HelloWorldAppDelegate
 
