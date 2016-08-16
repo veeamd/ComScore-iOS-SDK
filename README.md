@@ -12,7 +12,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Installation
 ============
 
-The ComScore iOS SDK consists of a static library framework.
+The ComScore iOS SDK can be installed in several ways.
 
 CocoaPods
 ---------
@@ -25,10 +25,21 @@ To install it, simply add the following line to your Podfile:
 pod "ComScore-iOS"
 ```
 
+Carthage
+--------
+
+For projects targeting iOS 8 and above, the ComScore iOS SDK can be installed using [Carthage](https://github.com/Carthage/Carthage) by simply adding the associated dependency to your `Cartfile`:
+
+```
+github "comScore/ComScore-iOS-SDK"
+```
+
+Then run `carthage update` to update the dependencies. Unlike CocoaPods, your project is not changed. You will need to manually add the `.framework` generated in the `Carthage/Build/iOS` folder to your projet. Refer to the [official Carthage documentation](https://github.com/Carthage/Carthage) for more information.
+
 Manual
 ------
 
-Refer to the implementation guides for information on how to manually add the library to your project.
+Refer to the implementation guides for information on how to manually add the static library to your project.
 
 Author
 ======
